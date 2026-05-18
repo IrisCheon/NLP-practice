@@ -1,26 +1,42 @@
-# toxity-classification-practice
+# NLP Practice
 
-Practice notebook for learning basic NLP and ML workflows using the Jigsaw Toxic Comment Classification dataset.
+This repository contains practice notebooks for learning basic NLP and text classification workflows using Python and scikit-learn.
 
-## What I explored
-
-- Text preprocessing with pandas
-- Binary toxicity classification
+The focus is on:
+- text preprocessing
 - TF-IDF vectorisation
+- classical machine learning baselines
+- evaluation metrics
+- threshold analysis
+- error inspection
+
+## Current notebooks
+
+### Toxic Comment Classification
+- Binary toxicity classification
 - Logistic Regression baseline
 - Precision / Recall / F1-score
-- Confusion matrix analysis
-- Threshold trade-offs
-- Recall comparison by toxicity subtype
-  - toxic
-  - severe_toxic
-  - obscene
-  - insult
-  - threat
-  - identity_hate
+- Confusion matrix
+- Threshold analysis
+- Toxicity subtype recall comparison
 
-## Main observations
+### SMS Spam Classification
+- SMS spam detection
+- Multinomial Naive Bayes baseline
+- TF-IDF vectorisation
+- Threshold analysis
+- False positive / false negative inspection
+- Comparison with and without stop word removal
 
-- The model achieved relatively high recall for toxic comments.
-- Lower thresholds increased recall but also increased false positives.
-- Severe toxic comments were generally easier for the model to detect than milder or context-dependent toxicity.
+## Tools
+
+- Python
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- Google Colab
+
+## Notes
+
+This repository is primarily for learning and experimentation rather than production-ready NLP systems.
