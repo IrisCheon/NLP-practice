@@ -27,7 +27,14 @@ The focus is on:
 - Threshold analysis
 - False positive / false negative inspection
 - Comparison with and without stop word removal
-
+- 
+### Clickbait Classification
+- Clickbait headline classification
+- TF-IDF + Logistic Regression
+- Comparison of unigram, bigram, and trigram features
+- Feature importance analysis
+- Probability-based inspection of borderline examples
+- 
 ## Tools
 
 - Python
